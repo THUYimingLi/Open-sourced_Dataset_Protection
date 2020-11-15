@@ -1,5 +1,5 @@
 
-This is the implementation of our paper 'Open-sourced Dataset Protection via Backdoor Watermarking', accepted by the NeurIPS Workshop on Dataset Curation and Security, 2020.
+This is the implementation of our paper 'Open-sourced Dataset Protection via Backdoor Watermarking', accepted by the NeurIPS Workshop on Dataset Curation and Security, 2020. [[arXiv]](https://arxiv.org/abs/2010.05821)
 This project is developed based on Python 3.6, created by [Yiming Li](http://liyiming.tech/) and Ziqi Zhang. 
 
 
