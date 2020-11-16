@@ -117,7 +117,7 @@ python train_watermarked_vgg.py --gpu-id 0 --poison-rate 0.1 --checkpoint 'check
 ```
 
 
-## Dataset Verification with Pairwise Hypothesis Test
+## Dataset Verification with Pairwise T-test
 The following is an example of the verification with trigger1, alpha1, margin=0.2 under ResNets structure.
 ```
 python test_gtsrb.py --gpu-id 0 --model 'resnet' --trigger './Trigger_default1.png' --alpha './Alpha_default1.png' --margin 0.2 --model-path './checkpoint/infected/line_1_01/checkpoint.pth.tar'
