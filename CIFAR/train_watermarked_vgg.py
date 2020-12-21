@@ -199,7 +199,7 @@ def main():
     benign_idx = idx[num_poisoned:]
 
     poisoned_img = poisoned_trainset.data[poisoned_idx, :, :, :]
-    poisoned_target = [args.y_target]*len(poisoned_trainset.data) # Reassign their label to the target label
+    poisoned_target = [args.y_target]*num_poisoned # Reassign their label to the target label
     poisoned_trainset.data, poisoned_trainset.targets = poisoned_img, poisoned_target
 
     benign_img = benign_trainset.data[benign_idx, :, :, :]
